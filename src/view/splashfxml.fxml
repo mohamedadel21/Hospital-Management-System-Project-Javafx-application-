@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="splashAnchorPane" prefHeight="363.0" prefWidth="578.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.splashcontroller">
+   <children>
+      <ImageView fitHeight="363.0" fitWidth="587.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../src/splashwindow.jpg" />
+         </image>
+      </ImageView>
+      <JFXProgressBar layoutX="189.0" layoutY="257.0" />
+   </children>
+</AnchorPane>

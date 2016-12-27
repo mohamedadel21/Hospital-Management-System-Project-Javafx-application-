@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="StatAnchorPane" prefHeight="508.0" prefWidth="819.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controller.StatisticsFxmlDocumentController">
+   <children>
+      <BarChart fx:id="barChart" layoutX="-1.0" layoutY="14.0" prefHeight="469.0" prefWidth="738.0" title="Patient Statistics" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <xAxis>
+          <CategoryAxis label="Clinic Name" side="BOTTOM" fx:id="x" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="y" label="Number of Patients" side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </children>
+</AnchorPane>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="447.0" prefWidth="273.0" style="-fx-background-color: #fa7;" stylesheets="@../style/StyleSheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.NavigationDrawerFXMLController">
+   <children>
+      <Pane id="navPane" prefHeight="212.0" prefWidth="273.0" style="-fx-background-color: #3395ff;" AnchorPane.bottomAnchor="235.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="73.0" fitWidth="92.0" layoutX="101.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../src/pictureprofile.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="usernameLB" alignment="CENTER" layoutY="155.0" prefHeight="54.0" prefWidth="273.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </Label>
+            <Label fx:id="NameLB" alignment="CENTER" layoutX="1.0" layoutY="131.0" prefHeight="33.0" prefWidth="273.0" text="Label" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </Label>
+         </children>
+      </Pane>
+      <VBox layoutY="210.0" prefHeight="362.0" prefWidth="300.0" style="-fx-background-color: #fff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="210.0">
+         <children>
+            <GridPane prefHeight="237.0" prefWidth="273.0" vgap="3.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="145.0" minWidth="10.0" prefWidth="75.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="225.0" minWidth="10.0" prefWidth="225.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <JFXButton id="navLabels" onAction="#showStatistics" prefHeight="131.0" prefWidth="212.0" style="-fx-background-color: #fff;" text="Statistics" textFill="#6b6b6b" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets left="-120.0" />
+                     </padding></JFXButton>
+                  <JFXButton id="navLabels" onAction="#about" prefHeight="77.0" prefWidth="220.0" style="-fx-background-color: #fff;" text="About" textFill="#6b6b6b" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <padding>
+                        <Insets left="-120.0" />
+                     </padding></JFXButton>
+                  <JFXButton id="navLabels" onAction="#exit" prefHeight="124.0" prefWidth="212.0" style="-fx-background-color: #fff;" text="Exit" textFill="#6b6b6b" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <padding>
+                        <Insets left="-120.0" />
+                     </padding></JFXButton>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" opacity="0.17" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../src/statistics.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="20.0" />
+                     </GridPane.margin></ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" opacity="0.17" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@../src/info.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="20.0" />
+                     </GridPane.margin></ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" opacity="0.17" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+                     <image>
+                        <Image url="@../src/lock.png" />
+                     </image>
+                     <GridPane.margin>
+                        <Insets left="20.0" />
+                     </GridPane.margin></ImageView>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </GridPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

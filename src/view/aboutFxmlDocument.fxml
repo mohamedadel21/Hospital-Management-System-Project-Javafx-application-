@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AboutAnchorPane" prefHeight="280.0" prefWidth="600.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.aboutController">
+   <children>
+      <ImageView fitHeight="156.0" fitWidth="177.0" layoutX="20.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../src/hospitallogo.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="226.0" prefHeight="95.0" prefWidth="360.0" text="HOSPITAL SYSTEM" textFill="#5b5b5b">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="226.0" layoutY="84.0" prefHeight="82.0" prefWidth="302.0" text="Is developed for managing and manipulating  the hospital's patients data  ." wrapText="true" />
+      <Label layoutX="218.0" layoutY="158.0" text="Developed by  " />
+      <Label layoutX="298.0" layoutY="158.0" text="MOHAMED ADEL" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="215.0" layoutY="220.0" text="Contact us with " />
+      <HBox layoutX="303.0" layoutY="210.0" prefHeight="17.0" prefWidth="134.0" spacing="10.0">
+         <children>
+            <ImageView fx:id="fb" fitHeight="34.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../src/fb.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="in" fitHeight="33.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../src/in.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="twitter" fitHeight="31.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../src/twitter.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

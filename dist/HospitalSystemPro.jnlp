@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="HospitalSystemPro.jnlp">
+  <information>
+    <title>HospitalSystemPro</title>
+    <vendor>MOHAMMED</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="HospitalSystemPro.jar" size="1662378" download="eager" />
+    <jar href="lib\controlsfx-8.40.12.jar" size="1069149" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2260777" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.36-bin.jar" size="1010144" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="HospitalSystemPro" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Main.Signin"  name="HospitalSystemPro" />
+  <update check="always"/>
+</jnlp>

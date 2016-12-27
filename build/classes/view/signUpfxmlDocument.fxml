@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane2" prefHeight="449.0" prefWidth="646.0" style="-fx-background-color: #09e2a7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.signupFXMLConroller">
+   <children>
+      <Pane layoutX="94.0" layoutY="60.0" opacity="0.7" prefHeight="329.0" prefWidth="459.0" style="-fx-background-color: #fff;">
+         <children>
+            <JFXTextField id="firtN" fx:id="firstName" focusColor="#047f5c" labelFloat="true" layoutX="65.0" layoutY="41.0" promptText="First Name" unFocusColor="#047f5c">
+               <font>
+                  <Font size="14.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="lastName" focusColor="#047f5c" labelFloat="true" layoutX="256.0" layoutY="41.0" promptText="Last Name" unFocusColor="#047f5c">
+               <font>
+                  <Font size="14.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="userName" focusColor="#047f5c" labelFloat="true" layoutX="63.0" layoutY="129.0" maxWidth="366.0" minWidth="317.0" prefHeight="36.0" prefWidth="366.0" promptText="User Name" unFocusColor="#047f5c">
+               <font>
+                  <Font size="14.0" />
+               </font></JFXTextField>
+            <JFXPasswordField fx:id="password" focusColor="#047f5c" labelFloat="true" layoutX="63.0" layoutY="196.0" maxWidth="366.0" minWidth="317.0" prefHeight="36.0" prefWidth="366.0" promptText="Password" unFocusColor="#047f5c">
+               <font>
+                  <Font size="14.0" />
+               </font></JFXPasswordField>
+            <JFXButton buttonType="RAISED" layoutX="303.0" layoutY="260.0" onAction="#regist" prefHeight="41.0" prefWidth="115.0" ripplerFill="WHITE" style="-fx-background-color: #09e2a7;" text="Register" textFill="WHITE" />
+            <JFXButton buttonType="RAISED" layoutX="172.0" layoutY="260.0" onAction="#cancelAction" prefHeight="41.0" prefWidth="115.0" ripplerFill="WHITE" style="-fx-background-color: #09e2a7;" text="Cancel" textFill="WHITE" />
+         </children>
+         <effect>
+            <DropShadow color="#838383" />
+         </effect>
+      </Pane>
+   </children>
+</AnchorPane>
